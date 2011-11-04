@@ -1,0 +1,46 @@
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" 
+	android:layout_height="wrap_content"
+	android:orientation="horizontal"
+	android:gravity="center_horizontal"
+	android:padding="4dp"
+	>
+	<TextView
+		android:id="@+id/attrname"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignParentLeft="true"
+		android:text="label"
+		/>
+	<EditText
+		android:id="@+id/et"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:gravity="left"
+		android:visibility="gone"
+		android:layout_below="@id/attrname"
+		android:layout_alignParentLeft="true"
+		android:layout_marginRight="60dp"
+	/>
+	<TextView
+		style="@style/HeaderFont"
+		android:id="@+id/attrvalue"
+		android:layout_below="@id/attrname"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Attr text"
+		android:gravity="left"
+		android:layout_alignParentLeft="true"
+		android:layout_marginRight="60dp"
+		/>
+	<ImageView
+		android:id="@+id/change"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignParentRight="true"
+		android:layout_alignParentTop="true"
+		android:src="@drawable/listeditbutton"
+		android:focusable="false"
+		/>
+</RelativeLayout>

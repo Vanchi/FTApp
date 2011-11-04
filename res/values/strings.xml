@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">DataCatcher</string>
+	
+	<!-- Strings for Start Activity-->
+	<string name="title">Field Trip Assistant</string>
+    <string name="createaccount">Create your account</string>
+    <string name="username">Student name</string>
+    <string name="wiseuser">Wise user name</string>
+    <string name="wisepass">Wise password</string>
+    <string name="b_createaccount">Start the App!</string>
+    
+    <!--  Strings for trips activity -->
+    <string name="tripstitle">Your Field Trips</string>
+    <string name="createtrip">New Trip</string>
+    
+    <!--  Strings for newtrip activity -->
+    <string name="newtrip">Start a new Trip:</string>
+    <string name="tripname">Trip name</string>
+    <string name="triplocation">Location</string>
+    <string name="tripdate">Date</string>
+    <string name="b_newtrip">Embark</string>
+    
+    <!--  Strings for Class 1 buttons -->
+    <string name="zerozero">Plants</string>
+    <string name="zeroone">Mammals</string>
+    <string name="zerotwo">Birds</string>
+    <string name="zerothree">Fish</string>
+    
+    <string name="onezero">Reptiles</string>
+    <string name="oneone">Amphibians</string>
+    <string name="onetwo">Invertibrates</string>
+    <string name="onethree">Fungi</string>
+    
+    <string name="twozero">Water</string>
+    <string name="twoone">Soil</string>
+    <string name="twotwo">Other</string>
+    <string name="twothree">Go</string>
+    
+    <string name="addattr_prompt">Drop Down or Type:</string>
+     <string-array name="attr_type_array">
+        <item>Number</item>
+        <item>Text</item>
+    </string-array>
+    
+</resources>

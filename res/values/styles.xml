@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="HeaderFont" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item><!--
+        <item name="android:textColor">#00FF00</item>
+        --><!--<item name="android:typeface">monospace</item>
+        --><item name="android:textSize">20dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingBottom">3dp</item>
+    </style>
+    <style name="FailMessage" parent="@android:style/TextAppearance.Medium">
+    	<item name="android:layout_width">fill_parent</item>
+    	<item name="android:layout_height">wrap_content</item>
+    	<item name="android:textColor">#FF0000</item>
+    	<item name="android:gravity">center</item>
+    	<item name="android:textStyle">italic</item>
+    </style>
+    
+</resources>

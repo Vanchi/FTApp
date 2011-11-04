@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView  
+    xmlns:android="http://schemas.android.com/apk/res/android"  
+    android:id="@+id/ScrollView01"  
+    android:layout_width="fill_parent"  
+    android:layout_height="wrap_content"  
+	> 
+	<LinearLayout 
+	    android:orientation="vertical"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:padding="5dp"
+		android:gravity="center"
+	    >
+		<!-- <TextView 
+			style="@style/HeaderFont"
+			android:text="@string/newtrip"
+			android:layout_width="fill_parent"
+    		android:layout_height="fill_parent"
+    		/> -->
+		<ImageView
+			android:id="@+id/picture"
+    		android:layout_width="100dp"
+    		android:layout_height="100dp"
+    		android:src="@drawable/starttrip"
+    		android:scaleType="fitXY"
+    		android:padding="3dp"
+    		/>
+		<TextView  
+		    android:layout_width="fill_parent" 
+		    android:layout_height="wrap_content" 
+		    android:text="@string/tripname"
+		    />
+		<EditText
+	       android:id="@+id/trip_name"
+		   android:layout_width="fill_parent" 
+ 		   android:layout_height="wrap_content"
+ 		   android:imeOptions="actionNext" 
+		   />    
+		<TextView  
+			
+		    android:layout_width="fill_parent" 
+		    android:layout_height="wrap_content" 
+		    android:text="@string/triplocation"
+		    />
+		<EditText
+			android:id="@+id/trip_location"
+		   android:layout_width="fill_parent" 
+ 		   android:layout_height="wrap_content"
+ 		   android:imeOptions="actionNext" 
+		   />    
+		<TextView  
+		    android:layout_width="fill_parent" 
+		    android:layout_height="wrap_content" 
+		    android:text="@string/tripdate"
+		    />
+		 <EditText
+		   	android:id="@+id/trip_date"
+			android:layout_width="fill_parent" 
+	 		android:layout_height="wrap_content"
+	 		android:imeOptions="actionGo" 
+		   />
+		<Button
+		 	android:id="@+id/setpic_button"
+		 	android:text="Set Picture"
+		 	android:layout_height="wrap_content"
+		 	android:layout_width="wrap_content"
+		 	android:layout_marginTop="5dp"
+		 	android:layout_marginBottom="5dp"
+		 	/>
+		 <Button
+		 	android:id="@+id/start_button"
+		 	android:text="@string/b_newtrip"
+		 	android:layout_height="wrap_content"
+		 	android:layout_width="wrap_content"
+		 	android:layout_marginTop="5dp"
+		 	android:layout_marginBottom="5dp"
+		 	/>
+		 <TextView  
+		 	style="@style/FailMessage"
+		 	android:id="@+id/new_trip_result"
+		    android:text=""
+		    />
+		   
+	</LinearLayout>
+</ScrollView>
